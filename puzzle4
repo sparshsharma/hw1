@@ -1,0 +1,38 @@
+function traveldown(){
+ var walk = 0;
+  while(walk < 4)
+  {
+    down();
+  	walk = walk + 1;
+  }
+}
+
+traveldown();
+
+right(); 
+
+var color = getColor();
+
+down();
+
+setColor(color);
+
+function travelright() {
+ var stop = 0;
+  while (stop < 3)
+  {right();
+   stop = stop + 1;
+  }
+}
+
+travelright();
+
+up();
+
+var color = getColor();
+
+down();
+
+setColor(color);
+
+travelright();
