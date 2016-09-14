@@ -1,0 +1,33 @@
+function go(){
+  function traveldown(){
+  var walk = 0;
+  while(walk < 8)
+  {
+    down();
+    walk = walk + 1;
+  }
+}
+
+  traveldown(); 
+  right(); right(); 
+}
+
+function stop(){
+  function travelup(){
+  var walk = 0;
+  while(walk < 8)
+  {
+    up();
+    walk = walk + 1;
+  }
+}
+
+  travelup(); 
+  right(); right();
+}
+
+go(); 
+stop();
+go();
+stop();
+go();
