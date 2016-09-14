@@ -1,0 +1,40 @@
+function go(){
+  function travelright(){
+  var color = getColor();
+  while(getColor() != "red")
+  {
+    down();
+  }
+}
+travelright(); 
+  
+if (getColor() == "red") {
+  right(); right();
+} else {
+  left();
+}
+}
+
+function stop(){
+  function travelleft(){
+  var color = getColor();
+  while(getColor() != "red")
+  {
+    up();
+  }
+}
+
+  travelleft(); 
+  
+if (getColor() == "red") {
+  right(); right();
+} else {
+  left();
+}
+}
+
+go(); 
+stop();
+go();
+stop();
+go();
