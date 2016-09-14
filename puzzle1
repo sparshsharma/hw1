@@ -1,0 +1,25 @@
+function traveldown(){
+ var walk = 0;
+  while(walk < 7)
+  {
+    down();
+  	walk = walk + 1;
+  }
+}
+
+traveldown();
+
+function travelright(){
+  var walk = 0;
+  while(walk < 5)
+  {
+    right();
+    walk = walk + 1;
+  }
+}
+
+travelright();
+up(); 
+up();
+right();
+right();
