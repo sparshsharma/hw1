@@ -1,0 +1,36 @@
+function go(){
+  
+  function travelright(){
+ var walk = 0;
+  while(walk < 2)
+  {
+    right();
+  	walk = walk + 1;
+  }
+}
+
+travelright();
+
+if (getColor() == "blue") { down();
+} else {
+  up();
+}
+
+  }
+
+go(); 
+
+go();
+
+go();
+
+function travelright(){
+ var walk = 0;
+  while(walk < 3)
+  {
+    right();
+  	walk = walk + 1;
+  }
+}
+
+travelright();
